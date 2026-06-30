@@ -107,7 +107,7 @@ export default function Home() {
         {/* Header */}
         <header className="mb-8">
           <h1 className="text-3xl font-semibold tracking-tight">
-            AI Text Transformer
+            AI Text Verse
           </h1>
           <p className="mt-2 text-zinc-300">
             Summarize, rewrite, and translate
