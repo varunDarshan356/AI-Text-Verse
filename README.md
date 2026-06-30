@@ -2,7 +2,7 @@
 
 A modern AI-powered text transformation web application built with **Next.js**, **React**, and **Tailwind CSS**. AI-Text-Verse helps users quickly **summarize**, **translate**, and **rewrite** text through a clean, intuitive, and fully responsive interface.
 
-<img width="922" height="591" alt="image" src="https://github.com/user-attachments/assets/8cc10a2c-3f0b-47bf-8429-e2895d3b694f" />
+<img width="100" alt="app-preview-image" src="https://github.com/user-attachments/assets/8cc10a2c-3f0b-47bf-8429-e2895d3b694f" />
 
 ---
 
