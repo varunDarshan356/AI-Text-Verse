@@ -1,6 +1,6 @@
 # AI-Text-Verse ✨
 
-A modern AI-powered text transformation web application built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**. AI-Text-Verse helps users quickly **summarize**, **translate**, and **rewrite** text through a clean, intuitive, and fully responsive interface.
+A modern AI-powered text transformation web application built with **Next.js**, **React**, and **Tailwind CSS**. AI-Text-Verse helps users quickly **summarize**, **translate**, and **rewrite** text through a clean, intuitive, and fully responsive interface.
 
 ---
 
@@ -91,7 +91,6 @@ Remove the generated content with a single click.
 
 * **Next.js** – React framework for modern web applications
 * **React** – Component-based UI library
-* **TypeScript** – Type-safe JavaScript development
 * **Tailwind CSS** – Utility-first CSS framework
 
 ---
