@@ -73,21 +73,23 @@ export async function POST(req) {
             output: result.response.text(),
         });
     }    
-    catch(err) {
-        console.error(err);
+    catch (err) {
+        console.error("Full Gemini error:", err);
 
-        if(err.status === 429) {
-            return Response.json(
-                { error: "Rate limit exceeded. Please try again later." },
-                { status: 429 }
-            );
-        }
-
-        if (e?.status !== 429) throw e;
-
+    if (err?.status === 429) {
         return Response.json(
-            { error: err.message || "Server Error" },
-            { status: 500 }
+            { error: "Rate limit exceeded. Please try again later." },
+            { status: 429 }
         );
     }
+
+    return Response.json(
+        {
+            error: err?.message || "Internal Server Error",
+        },
+        {
+            status: 500,
+        }
+    );
+}
 }
